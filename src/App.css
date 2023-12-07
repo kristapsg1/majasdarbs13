@@ -1,0 +1,62 @@
+.first-wrapper{
+display: flex;
+flex-direction: column;
+gap: 20px;
+border: 1px solid black;
+padding: 30px 50px;
+justify-content: center;
+background-color: rgb(221, 162, 107);
+max-width: 600px;
+border-radius: 15px;
+}
+
+button{
+  width: fit-content;
+  padding: 8px 15px;
+  background-color: #1fa51f;
+  border: 1px black solid;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+}
+
+input{
+  max-width: 300px;
+  height: 30px;
+  border-radius: 10px;
+}
+
+ul{
+  list-style-type: none;
+}
+
+.form-add{
+  gap: 15px;
+  display: flex;
+}
+
+.multiplie-box{
+  height: 50px;
+  border: solid 1px black;
+  max-width: 140px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+
+}
+
+.color-selector-wrapper{
+  display: flex;
+  gap: 15px
+}
+
+.select-style{
+  height: 33.6px;
+  border-radius: 10px;
+}
+
+.color-wrapper{
+  display: flex;
+  gap: 20px;
+}
